@@ -154,4 +154,4 @@ console.log('Такси по дате мода:', todoList.sortTodosByModifiedDa
 console.log('Таски по статусу:', todoList.sortTodosByStatus());
 
 todoList.editTodoTask(1, 'Ещё быстре надо!!!!');
-console.log('Todos sorted by modified date:', todoList.sortTodosByModifiedDate());
+console.log('Такси по дате мода:', todoList.sortTodosByModifiedDate());
