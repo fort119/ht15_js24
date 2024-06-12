@@ -147,11 +147,11 @@ todoList.editTaskDescription(1, 'Доделать и срочно');
 
 console.log(todoList.getTaskInfo(0));
 
-console.log('Todos sorted by created date:', todoList.sortTodosByCreatedDate());
+console.log('Такси по дате создания:', todoList.sortTodosByCreatedDate());
 
-console.log('Todos sorted by modified date:', todoList.sortTodosByModifiedDate());
+console.log('Такси по дате мода:', todoList.sortTodosByModifiedDate());
 
-console.log('Todos sorted by status:', todoList.sortTodosByStatus());
+console.log('Таски по статусу:', todoList.sortTodosByStatus());
 
 todoList.editTodoTask(1, 'Ещё быстре надо!!!!');
 console.log('Todos sorted by modified date:', todoList.sortTodosByModifiedDate());
